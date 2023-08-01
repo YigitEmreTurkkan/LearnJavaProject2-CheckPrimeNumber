@@ -10,9 +10,9 @@ public class Main {
         for (int i = 2; i < number; i++) {
             int remainder = number % i;
             if (remainder == 0) {
-                System.out.println("Sayı Asal Değildir");}
+                System.out.println("This number is not prime.");}
             else{
-                System.out.println("Sayı Asaldır");
+                System.out.println("This number is prime.");
 
             }
             break;
